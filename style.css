@@ -1,0 +1,54 @@
+/* ensures most items on the page are centered excluding the lists */
+.text-center,
+h2,
+p {
+    text-align: center;
+}
+
+/* added a font family for the subtitle tags */
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 200px;
+}
+
+a {
+    font-size: larger;
+}
+
+.dark {
+    background-color: darkcyan;
+    margin: 50px;
+    padding: 20px;
+}
+
+.light {
+    background-color: lightgrey;
+    margin: 50px;
+    padding: 20px;
+}
+
+/* added padding and margin to the main wrapper to give a cleaner look */
+.wrapper {
+    width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* footers a tags looked off so I used flexbox to properly align the items */
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+hr {
+    height: 2px;
+}
+
+a:hover {
+    color: yellow;
+}
